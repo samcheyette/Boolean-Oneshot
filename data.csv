@@ -1,0 +1,462 @@
+debugR52JCP, 0, 1491850277017, blicket, square, small, red, not_striped, 
+debugGO4T0L, 0, 1491850823882, blicket, square, big, blue, striped, 
+A3IZDUUAWAO1HY, 0, 1491851024047, blicket, triangle, small, blue, not_striped, 
+A1WUC82IN5GX1D, 0, 1491851058962, blicket, square, big, red, not_striped, 
+A1WUC82IN5GX1D, 3, 1491851071044, stimulus, triangle, big, blue, not_striped, , N, 3207
+A1WUC82IN5GX1D, 4, 1491851072227, stimulus, square, big, blue, not_striped, , Y, 1183
+A1WUC82IN5GX1D, 5, 1491851073212, stimulus, square, small, blue, striped, , Y, 983
+A1WUC82IN5GX1D, 6, 1491851074363, stimulus, square, small, red, not_striped, , Y, 1151
+A1WUC82IN5GX1D, 7, 1491851075492, stimulus, triangle, big, red, striped, , N, 1127
+A1WUC82IN5GX1D, 8, 1491851076556, stimulus, triangle, small, red, striped, , N, 1064
+A1WUC82IN5GX1D, 9, 1491851077324, stimulus, square, big, red, not_striped, , Y, 768
+A1WUC82IN5GX1D, 10, 1491851078236, stimulus, square, small, blue, not_striped, , Y, 912
+A1WUC82IN5GX1D, 11, 1491851079059, stimulus, triangle, small, blue, not_striped, , N, 823
+A1WUC82IN5GX1D, 12, 1491851080563, stimulus, triangle, small, red, not_striped, , N, 1503
+A1WUC82IN5GX1D, 13, 1491851081412, stimulus, triangle, big, blue, striped, , N, 848
+A1WUC82IN5GX1D, 14, 1491851082035, stimulus, square, big, red, striped, , Y, 622
+A1WUC82IN5GX1D, 15, 1491851082788, stimulus, triangle, small, blue, striped, , N, 752
+A1WUC82IN5GX1D, 16, 1491851083923, stimulus, triangle, big, red, not_striped, , N, 1134
+A1WUC82IN5GX1D, 17, 1491851084532, stimulus, square, big, blue, striped, , Y, 607
+A1WUC82IN5GX1D, 18, 1491851096956, Response, It is a square?
+A1M5QEN7OHRWOI, 0, 1491851085136, blicket, triangle, small, red, striped, 
+A1M5QEN7OHRWOI, 3, 1491851104829, stimulus, triangle, small, red, not_striped, , Y, 2906
+A1M5QEN7OHRWOI, 4, 1491851108342, stimulus, square, big, red, striped, , N, 3507
+A1M5QEN7OHRWOI, 5, 1491851109269, stimulus, square, small, red, not_striped, , N, 924
+A1M5QEN7OHRWOI, 6, 1491851110621, stimulus, triangle, small, blue, striped, , Y, 1342
+A1M5QEN7OHRWOI, 7, 1491851111485, stimulus, triangle, small, red, striped, , Y, 858
+A1M5QEN7OHRWOI, 8, 1491851112805, stimulus, square, small, red, striped, , N, 1314
+A1M5QEN7OHRWOI, 9, 1491851113757, stimulus, triangle, big, blue, striped, , Y, 946
+A1M5QEN7OHRWOI, 10, 1491851114533, stimulus, square, big, red, not_striped, , N, 773
+A1M5QEN7OHRWOI, 11, 1491851115581, stimulus, triangle, big, blue, not_striped, , Y, 1044
+A1M5QEN7OHRWOI, 12, 1491851116420, stimulus, square, small, blue, not_striped, , N, 835
+A1M5QEN7OHRWOI, 13, 1491851117213, stimulus, triangle, big, red, striped, , Y, 788
+A1M5QEN7OHRWOI, 14, 1491851118293, stimulus, square, small, blue, striped, , N, 1076
+A1M5QEN7OHRWOI, 15, 1491851119014, stimulus, triangle, big, red, not_striped, , Y, 718
+A1M5QEN7OHRWOI, 16, 1491851119951, stimulus, square, big, blue, not_striped, , N, 933
+A1M5QEN7OHRWOI, 17, 1491851120829, stimulus, triangle, small, blue, not_striped, , Y, 875
+A1M5QEN7OHRWOI, 18, 1491851129255, Response, A triangle
+A2ILUP6FN8HKKC, 0, 1491851182579, blicket, square, small, blue, not_striped, 
+A2ILUP6FN8HKKC, 3, 1491851219669, stimulus, triangle, big, blue, striped, , N, 3182
+A2ILUP6FN8HKKC, 4, 1491851220845, stimulus, triangle, small, red, striped, , N, 1167
+A2ILUP6FN8HKKC, 5, 1491851221910, stimulus, triangle, big, red, not_striped, , N, 1060
+A2ILUP6FN8HKKC, 6, 1491851223709, stimulus, square, small, blue, striped, , Y, 1792
+A2ILUP6FN8HKKC, 7, 1491851224981, stimulus, square, big, red, striped, , N, 1267
+A2ILUP6FN8HKKC, 8, 1491851226029, stimulus, triangle, small, red, not_striped, , N, 1045
+A2ILUP6FN8HKKC, 9, 1491851227245, stimulus, square, small, red, striped, , N, 1208
+A2ILUP6FN8HKKC, 10, 1491851231021, stimulus, triangle, big, blue, not_striped, , N, 3773
+A2ILUP6FN8HKKC, 11, 1491851231820, stimulus, square, big, blue, not_striped, , Y, 796
+A2ILUP6FN8HKKC, 12, 1491851233229, stimulus, square, small, red, not_striped, , N, 1406
+A2ILUP6FN8HKKC, 13, 1491851234325, stimulus, triangle, small, blue, not_striped, , N, 1093
+A2ILUP6FN8HKKC, 14, 1491851235253, stimulus, triangle, small, blue, striped, , N, 923
+A2ILUP6FN8HKKC, 15, 1491851236333, stimulus, square, big, blue, striped, , Y, 1073
+A2ILUP6FN8HKKC, 16, 1491851237468, stimulus, triangle, big, red, striped, , N, 1130
+A2ILUP6FN8HKKC, 17, 1491851238421, stimulus, square, big, red, not_striped, , N, 950
+A2ILUP6FN8HKKC, 18, 1491851254461, Response, It has to be square and partly blue.
+A2541C8MY0BYV3, 0, 1491851052945, blicket, triangle, big, red, not_striped, 
+A2541C8MY0BYV3, 3, 1491851060441, stimulus, square, small, red, striped, , N, 2710
+A2541C8MY0BYV3, 4, 1491851061237, stimulus, square, big, blue, not_striped, , Y, 787
+A2541C8MY0BYV3, 5, 1491851061864, stimulus, triangle, big, blue, not_striped, , Y, 623
+A2541C8MY0BYV3, 6, 1491851062583, stimulus, triangle, small, blue, not_striped, , N, 706
+A2541C8MY0BYV3, 7, 1491851063483, stimulus, triangle, big, blue, striped, , N, 873
+A2541C8MY0BYV3, 8, 1491851064118, stimulus, square, small, blue, striped, , N, 629
+A2541C8MY0BYV3, 9, 1491851065143, stimulus, triangle, small, blue, striped, , Y, 1005
+A2541C8MY0BYV3, 10, 1491851065910, stimulus, triangle, big, red, striped, , Y, 748
+A2541C8MY0BYV3, 11, 1491851066471, stimulus, square, big, blue, striped, , N, 542
+A2541C8MY0BYV3, 12, 1491851066999, stimulus, square, big, red, striped, , N, 511
+A2541C8MY0BYV3, 13, 1491851068376, stimulus, square, big, red, not_striped, , N, 1372
+A2541C8MY0BYV3, 14, 1491851068887, stimulus, triangle, big, red, not_striped, , Y, 491
+A2541C8MY0BYV3, 15, 1491851069800, stimulus, triangle, small, red, striped, , Y, 889
+A2541C8MY0BYV3, 16, 1491851070326, stimulus, square, small, blue, not_striped, , N, 518
+A2541C8MY0BYV3, 17, 1491851070854, stimulus, triangle, small, red, not_striped, , Y, 520
+A2541C8MY0BYV3, 18, 1491851084684, Response, Has to be a triangle or red.
+A2NAKIXS3DVGAA, 0, 1491851323481, blicket, triangle, big, red, not_striped, 
+A2NAKIXS3DVGAA, 3, 1491851351684, stimulus, triangle, small, blue, striped, , N, 18850
+A2NAKIXS3DVGAA, 4, 1491851353205, stimulus, square, small, red, striped, , N, 1509
+A2NAKIXS3DVGAA, 5, 1491851355184, stimulus, triangle, big, blue, striped, , N, 1975
+A2NAKIXS3DVGAA, 6, 1491851356148, stimulus, triangle, small, red, not_striped, , Y, 961
+A2NAKIXS3DVGAA, 7, 1491851356948, stimulus, square, small, red, not_striped, , N, 797
+A2NAKIXS3DVGAA, 8, 1491851357430, stimulus, square, small, blue, striped, , N, 477
+A2NAKIXS3DVGAA, 9, 1491851357856, stimulus, triangle, small, blue, not_striped, , N, 424
+A2NAKIXS3DVGAA, 10, 1491851358358, stimulus, square, big, blue, striped, , N, 499
+A2NAKIXS3DVGAA, 11, 1491851358848, stimulus, square, big, red, striped, , N, 485
+A2NAKIXS3DVGAA, 12, 1491851359221, stimulus, triangle, big, red, striped, , N, 370
+A2NAKIXS3DVGAA, 13, 1491851359670, stimulus, triangle, small, red, striped, , N, 446
+A2NAKIXS3DVGAA, 14, 1491851360167, stimulus, square, small, blue, not_striped, , N, 495
+A2NAKIXS3DVGAA, 15, 1491851360848, stimulus, square, big, red, not_striped, , N, 679
+A2NAKIXS3DVGAA, 16, 1491851361406, stimulus, triangle, big, red, not_striped, , Y, 555
+A2NAKIXS3DVGAA, 17, 1491851361820, stimulus, square, big, blue, not_striped, , N, 412
+A2NAKIXS3DVGAA, 18, 1491851371634, Response, Being a red triangle.
+A1X0H6VAK3AQE9, 0, 1491851330856, blicket, triangle, small, red, striped, 
+A1X0H6VAK3AQE9, 3, 1491851352145, stimulus, triangle, small, red, striped, , Y, 2730
+A1X0H6VAK3AQE9, 4, 1491851354084, stimulus, square, big, blue, not_striped, , N, 1927
+A1X0H6VAK3AQE9, 5, 1491851355219, stimulus, triangle, big, blue, striped, , Y, 1126
+A1X0H6VAK3AQE9, 6, 1491851356157, stimulus, triangle, big, blue, not_striped, , N, 930
+A1X0H6VAK3AQE9, 7, 1491851358079, stimulus, square, small, red, striped, , N, 1911
+A1X0H6VAK3AQE9, 8, 1491851359095, stimulus, triangle, big, red, striped, , Y, 1006
+A1X0H6VAK3AQE9, 9, 1491851359891, stimulus, triangle, big, red, not_striped, , N, 791
+A1X0H6VAK3AQE9, 10, 1491851360651, stimulus, square, small, red, not_striped, , N, 753
+A1X0H6VAK3AQE9, 11, 1491851362331, stimulus, square, small, blue, not_striped, , N, 1673
+A1X0H6VAK3AQE9, 12, 1491851363324, stimulus, square, big, blue, striped, , N, 985
+A1X0H6VAK3AQE9, 13, 1491851364071, stimulus, square, big, red, not_striped, , N, 740
+A1X0H6VAK3AQE9, 14, 1491851364599, stimulus, square, big, red, striped, , N, 519
+A1X0H6VAK3AQE9, 15, 1491851365342, stimulus, square, small, blue, striped, , N, 733
+A1X0H6VAK3AQE9, 16, 1491851366212, stimulus, triangle, small, blue, not_striped, , N, 863
+A1X0H6VAK3AQE9, 17, 1491851366829, stimulus, triangle, small, blue, striped, , Y, 608
+A1X0H6VAK3AQE9, 18, 1491851416090, Response, I determine it to be a triangle shape in the upper right corner with stripes regardless of color.
+A2WH3GIS2KF8LU, 0, 1491851435810, blicket, triangle, small, red, not_striped, 
+A2WH3GIS2KF8LU, 3, 1491851464307, stimulus, square, big, blue, not_striped, , N, 3879
+A2WH3GIS2KF8LU, 4, 1491851467248, stimulus, square, big, blue, striped, , N, 2937
+A2WH3GIS2KF8LU, 5, 1491851468625, stimulus, triangle, small, blue, striped, , Y, 1375
+A2WH3GIS2KF8LU, 6, 1491851471132, stimulus, square, small, red, not_striped, , Y, 2505
+A2WH3GIS2KF8LU, 7, 1491851473142, stimulus, square, small, red, striped, , N, 2008
+A2WH3GIS2KF8LU, 8, 1491851473867, stimulus, triangle, small, red, not_striped, , Y, 724
+A2WH3GIS2KF8LU, 9, 1491851474822, stimulus, square, big, red, striped, , N, 953
+A2WH3GIS2KF8LU, 10, 1491851476475, stimulus, triangle, big, blue, striped, , N, 1650
+A2WH3GIS2KF8LU, 11, 1491851479414, stimulus, triangle, big, blue, not_striped, , Y, 2938
+A2WH3GIS2KF8LU, 12, 1491851480306, stimulus, square, small, blue, striped, , N, 889
+A2WH3GIS2KF8LU, 13, 1491851481369, stimulus, triangle, small, red, striped, , Y, 1062
+A2WH3GIS2KF8LU, 14, 1491851482995, stimulus, triangle, big, red, striped, , N, 1623
+A2WH3GIS2KF8LU, 15, 1491851483629, stimulus, triangle, small, blue, not_striped, , Y, 633
+A2WH3GIS2KF8LU, 16, 1491851485358, stimulus, square, small, blue, not_striped, , N, 1728
+A2WH3GIS2KF8LU, 17, 1491851486858, stimulus, square, big, red, not_striped, , N, 1499
+AELOYBHVZFDW9, 0, 1491851536295, blicket, square, big, blue, not_striped, 
+AELOYBHVZFDW9, 3, 1491851554371, stimulus, square, small, blue, not_striped, , Y, 2752
+AELOYBHVZFDW9, 4, 1491851561738, stimulus, square, big, red, not_striped, , Y, 7356
+AELOYBHVZFDW9, 5, 1491851567594, stimulus, square, small, blue, striped, , Y, 5796
+AELOYBHVZFDW9, 6, 1491851568490, stimulus, square, big, red, striped, , Y, 876
+AELOYBHVZFDW9, 7, 1491851569986, stimulus, triangle, big, blue, striped, , N, 1483
+AELOYBHVZFDW9, 8, 1491851571410, stimulus, square, big, blue, striped, , Y, 1413
+AELOYBHVZFDW9, 9, 1491851572466, stimulus, square, small, red, striped, , Y, 1039
+AELOYBHVZFDW9, 10, 1491851573418, stimulus, square, small, red, not_striped, , Y, 945
+AELOYBHVZFDW9, 11, 1491851574523, stimulus, triangle, small, red, not_striped, , N, 1099
+AELOYBHVZFDW9, 12, 1491851575700, stimulus, triangle, small, red, striped, , N, 1166
+AELOYBHVZFDW9, 13, 1491851576634, stimulus, triangle, big, red, not_striped, , N, 928
+AELOYBHVZFDW9, 14, 1491851577570, stimulus, triangle, big, blue, not_striped, , N, 930
+AELOYBHVZFDW9, 15, 1491851578442, stimulus, triangle, small, blue, striped, , N, 858
+AELOYBHVZFDW9, 16, 1491851579682, stimulus, square, big, blue, not_striped, , Y, 1234
+AELOYBHVZFDW9, 17, 1491851580858, stimulus, triangle, small, blue, not_striped, , N, 1170
+AELOYBHVZFDW9, 18, 1491851592602, Response, it is a square
+A8MTR8ZH4OBNP, 0, 1491851587847, blicket, triangle, small, red, not_striped, 
+A8MTR8ZH4OBNP, 3, 1491851646787, stimulus, triangle, small, red, striped, , N, 6087
+A8MTR8ZH4OBNP, 4, 1491851648074, stimulus, triangle, big, red, striped, , N, 1284
+A8MTR8ZH4OBNP, 5, 1491851649330, stimulus, triangle, small, blue, not_striped, , N, 1254
+A8MTR8ZH4OBNP, 6, 1491851650482, stimulus, square, big, blue, striped, , N, 1150
+A8MTR8ZH4OBNP, 7, 1491851651506, stimulus, triangle, big, blue, striped, , N, 1023
+A8MTR8ZH4OBNP, 8, 1491851652930, stimulus, triangle, big, red, not_striped, , Y, 1422
+A8MTR8ZH4OBNP, 9, 1491851653706, stimulus, square, small, red, striped, , N, 774
+A8MTR8ZH4OBNP, 10, 1491851654770, stimulus, triangle, small, blue, striped, , N, 1060
+A8MTR8ZH4OBNP, 11, 1491851655554, stimulus, triangle, big, blue, not_striped, , N, 782
+A8MTR8ZH4OBNP, 12, 1491851656402, stimulus, square, small, red, not_striped, , N, 848
+A8MTR8ZH4OBNP, 13, 1491851657106, stimulus, square, small, blue, not_striped, , N, 702
+A8MTR8ZH4OBNP, 14, 1491851657698, stimulus, square, big, red, not_striped, , N, 591
+A8MTR8ZH4OBNP, 15, 1491851658154, stimulus, square, big, red, striped, , N, 456
+A8MTR8ZH4OBNP, 16, 1491851659082, stimulus, triangle, small, red, not_striped, , Y, 928
+A8MTR8ZH4OBNP, 17, 1491851659754, stimulus, square, big, blue, not_striped, , N, 671
+A8MTR8ZH4OBNP, 18, 1491851669673, Response, being a solid red triangle
+A1KH1O9AZ7S642, 0, 1491851726349, blicket, triangle, small, blue, striped, 
+A1KH1O9AZ7S642, 3, 1491851751676, stimulus, triangle, small, red, not_striped, , Y, 1702
+A1KH1O9AZ7S642, 4, 1491851753224, stimulus, triangle, big, blue, striped, , Y, 1524
+A1KH1O9AZ7S642, 5, 1491851754613, stimulus, triangle, small, blue, striped, , Y, 1359
+A1KH1O9AZ7S642, 6, 1491851756032, stimulus, square, small, blue, not_striped, , N, 1404
+A1KH1O9AZ7S642, 7, 1491851758813, stimulus, square, small, blue, striped, , N, 2757
+A1KH1O9AZ7S642, 8, 1491851759950, stimulus, triangle, big, blue, not_striped, , Y, 1116
+A1KH1O9AZ7S642, 9, 1491851761038, stimulus, square, small, red, striped, , N, 1056
+A1KH1O9AZ7S642, 10, 1491851762101, stimulus, square, small, red, not_striped, , N, 1045
+A1KH1O9AZ7S642, 11, 1491851762930, stimulus, square, big, blue, striped, , N, 805
+A1KH1O9AZ7S642, 12, 1491851763767, stimulus, triangle, small, red, striped, , Y, 813
+A1KH1O9AZ7S642, 13, 1491851764516, stimulus, triangle, big, red, not_striped, , Y, 734
+A1KH1O9AZ7S642, 14, 1491851765150, stimulus, triangle, big, red, striped, , Y, 610
+A1KH1O9AZ7S642, 15, 1491851766294, stimulus, square, big, blue, not_striped, , N, 1130
+A1KH1O9AZ7S642, 16, 1491851766909, stimulus, square, big, red, not_striped, , N, 600
+A1KH1O9AZ7S642, 17, 1491851767576, stimulus, square, big, red, striped, , N, 644
+A1KH1O9AZ7S642, 18, 1491851789399, Response, a blicket must be a triangle. It can have solid colors or stripes. It must be a triangle, though. 
+A3E3RCR51Z8EVP, 0, 1491851885999, blicket, triangle, big, red, striped, 
+A3E3RCR51Z8EVP, 3, 1491851902300, stimulus, triangle, big, red, not_striped, , Y, 3119
+A3E3RCR51Z8EVP, 4, 1491851903577, stimulus, triangle, big, blue, not_striped, , Y, 1274
+A3E3RCR51Z8EVP, 5, 1491851905305, stimulus, square, big, red, striped, , N, 1725
+A3E3RCR51Z8EVP, 6, 1491851906642, stimulus, square, small, blue, not_striped, , N, 1336
+A3E3RCR51Z8EVP, 7, 1491851907657, stimulus, square, big, red, not_striped, , N, 1013
+A3E3RCR51Z8EVP, 8, 1491851910966, stimulus, triangle, small, blue, striped, , Y, 3307
+A3E3RCR51Z8EVP, 9, 1491851912043, stimulus, triangle, big, blue, striped, , Y, 1074
+A3E3RCR51Z8EVP, 10, 1491851912638, stimulus, triangle, big, red, striped, , Y, 593
+A3E3RCR51Z8EVP, 11, 1491851913344, stimulus, square, small, red, not_striped, , N, 705
+A3E3RCR51Z8EVP, 12, 1491851914284, stimulus, triangle, small, red, striped, , Y, 938
+A3E3RCR51Z8EVP, 13, 1491851915101, stimulus, square, small, blue, striped, , N, 815
+A3E3RCR51Z8EVP, 14, 1491851915795, stimulus, square, big, blue, striped, , N, 691
+A3E3RCR51Z8EVP, 15, 1491851917249, stimulus, triangle, small, blue, not_striped, , N, 1452
+A3E3RCR51Z8EVP, 16, 1491851918562, stimulus, square, small, red, striped, , N, 1311
+A3E3RCR51Z8EVP, 17, 1491851919992, stimulus, triangle, small, red, not_striped, , Y, 1429
+A3E3RCR51Z8EVP, 18, 1491851938501, Response, I think the shape must be a triangle but otherwise it can be different sizes and colors.
+A2R8IV2PWFTY00, 0, 1491851831299, blicket, square, big, red, not_striped, 
+A2R8IV2PWFTY00, 3, 1491851857059, stimulus, square, small, red, striped, , N, 4211
+A2R8IV2PWFTY00, 4, 1491851861291, stimulus, square, big, red, striped, , N, 4229
+A2R8IV2PWFTY00, 5, 1491851862283, stimulus, square, big, blue, striped, , N, 990
+A2R8IV2PWFTY00, 6, 1491851864139, stimulus, triangle, small, red, not_striped, , N, 1855
+A2R8IV2PWFTY00, 7, 1491851866899, stimulus, square, big, red, not_striped, , Y, 2759
+A2R8IV2PWFTY00, 8, 1491851869155, stimulus, triangle, small, red, striped, , N, 2254
+A2R8IV2PWFTY00, 9, 1491851869923, stimulus, triangle, small, blue, striped, , N, 766
+A2R8IV2PWFTY00, 10, 1491851871315, stimulus, square, small, blue, striped, , N, 1390
+A2R8IV2PWFTY00, 11, 1491851873203, stimulus, square, small, blue, not_striped, , N, 1887
+A2R8IV2PWFTY00, 12, 1491851874227, stimulus, triangle, big, red, striped, , N, 1022
+A2R8IV2PWFTY00, 13, 1491851880316, stimulus, square, big, blue, not_striped, , Y, 6088
+A2R8IV2PWFTY00, 14, 1491851884915, stimulus, triangle, small, blue, not_striped, , N, 4598
+A2R8IV2PWFTY00, 15, 1491851886131, stimulus, square, small, red, not_striped, , Y, 1215
+A2R8IV2PWFTY00, 16, 1491851886979, stimulus, triangle, big, blue, striped, , N, 846
+A2R8IV2PWFTY00, 17, 1491851887803, stimulus, triangle, big, red, not_striped, , N, 823
+A2R8IV2PWFTY00, 18, 1491851939543, Response, A square shape of a solid color, no matter the size.
+A32QJF67JMJFKX, 0, 1491851921368, blicket, square, small, red, striped, 
+A32QJF67JMJFKX, 3, 1491851952179, stimulus, square, small, blue, not_striped, , N, 2898
+A32QJF67JMJFKX, 4, 1491851953524, stimulus, triangle, small, red, not_striped, , N, 1342
+A32QJF67JMJFKX, 5, 1491851954660, stimulus, square, big, blue, not_striped, , N, 1134
+A32QJF67JMJFKX, 6, 1491851956507, stimulus, square, big, red, striped, , Y, 1844
+A32QJF67JMJFKX, 7, 1491851957675, stimulus, square, small, red, striped, , Y, 1165
+A32QJF67JMJFKX, 8, 1491851958555, stimulus, triangle, big, blue, not_striped, , N, 878
+A32QJF67JMJFKX, 9, 1491851959219, stimulus, triangle, small, blue, striped, , N, 660
+A32QJF67JMJFKX, 10, 1491851960171, stimulus, square, small, blue, striped, , N, 946
+A32QJF67JMJFKX, 11, 1491851960811, stimulus, triangle, big, red, not_striped, , N, 638
+A32QJF67JMJFKX, 12, 1491851961467, stimulus, square, small, red, not_striped, , N, 652
+A32QJF67JMJFKX, 13, 1491851962107, stimulus, triangle, big, blue, striped, , N, 637
+A32QJF67JMJFKX, 14, 1491851962691, stimulus, triangle, big, red, striped, , N, 581
+A32QJF67JMJFKX, 15, 1491851963307, stimulus, square, big, red, not_striped, , N, 613
+A32QJF67JMJFKX, 16, 1491851963925, stimulus, triangle, small, red, striped, , N, 614
+A32QJF67JMJFKX, 17, 1491851964515, stimulus, triangle, small, blue, not_striped, , N, 588
+A32QJF67JMJFKX, 18, 1491851980855, Response, Square with red and black stripes. 
+A19134KP9PBNXT, 0, 1491851974220, blicket, square, small, red, not_striped, 
+A19134KP9PBNXT, 3, 1491852010395, stimulus, square, small, blue, striped, , N, 4705
+A19134KP9PBNXT, 4, 1491852012178, stimulus, triangle, small, red, striped, , N, 1779
+A19134KP9PBNXT, 5, 1491852015131, stimulus, square, big, blue, striped, , N, 2951
+A19134KP9PBNXT, 6, 1491852016667, stimulus, square, big, red, striped, , N, 1535
+A19134KP9PBNXT, 7, 1491852017963, stimulus, triangle, small, blue, not_striped, , N, 1295
+A19134KP9PBNXT, 8, 1491852019331, stimulus, square, big, blue, not_striped, , N, 1367
+A19134KP9PBNXT, 9, 1491852020763, stimulus, triangle, big, blue, striped, , N, 1428
+A19134KP9PBNXT, 10, 1491852021994, stimulus, triangle, small, red, not_striped, , N, 1230
+A19134KP9PBNXT, 11, 1491852029755, stimulus, square, small, red, striped, , N, 7760
+A19134KP9PBNXT, 12, 1491852030555, stimulus, square, small, blue, not_striped, , N, 799
+A19134KP9PBNXT, 13, 1491852031051, stimulus, triangle, big, red, striped, , N, 495
+A19134KP9PBNXT, 14, 1491852031468, stimulus, triangle, big, blue, not_striped, , N, 416
+A19134KP9PBNXT, 15, 1491852032772, stimulus, square, small, red, not_striped, , Y, 1303
+A19134KP9PBNXT, 16, 1491852034524, stimulus, square, big, red, not_striped, , N, 1752
+A19134KP9PBNXT, 17, 1491852035140, stimulus, triangle, big, red, not_striped, , N, 615
+A19134KP9PBNXT, 18, 1491852053872, Response, a small red square with a black stroke
+A1JQI98NY1RMNS, 0, 1491852088902, blicket, triangle, small, blue, not_striped, 
+A1JQI98NY1RMNS, 3, 1491852103774, stimulus, square, big, red, striped, , N, 1710
+A1JQI98NY1RMNS, 4, 1491852105284, stimulus, square, small, blue, striped, , N, 1495
+A1JQI98NY1RMNS, 5, 1491852107133, stimulus, triangle, big, blue, striped, , Y, 1831
+A1JQI98NY1RMNS, 6, 1491852110168, stimulus, triangle, big, red, not_striped, , Y, 3020
+A1JQI98NY1RMNS, 7, 1491852111022, stimulus, triangle, small, blue, striped, , Y, 849
+A1JQI98NY1RMNS, 8, 1491852112034, stimulus, triangle, big, red, striped, , Y, 998
+A1JQI98NY1RMNS, 9, 1491852113021, stimulus, triangle, small, red, not_striped, , Y, 987
+A1JQI98NY1RMNS, 10, 1491852113701, stimulus, square, big, red, not_striped, , N, 665
+A1JQI98NY1RMNS, 11, 1491852114275, stimulus, triangle, small, blue, not_striped, , Y, 559
+A1JQI98NY1RMNS, 12, 1491852115436, stimulus, square, small, blue, not_striped, , N, 1145
+A1JQI98NY1RMNS, 13, 1491852115972, stimulus, square, small, red, not_striped, , N, 528
+A1JQI98NY1RMNS, 14, 1491852116584, stimulus, square, big, blue, not_striped, , N, 605
+A1JQI98NY1RMNS, 15, 1491852117441, stimulus, square, small, red, striped, , N, 844
+A1JQI98NY1RMNS, 16, 1491852118016, stimulus, triangle, big, blue, not_striped, , Y, 565
+A1JQI98NY1RMNS, 17, 1491852118521, stimulus, triangle, small, red, striped, , Y, 493
+A1JQI98NY1RMNS, 18, 1491852129467, Response, a triangle
+A10O5YR01H865K, 0, 1491852195027, blicket, triangle, small, blue, not_striped, 
+A10O5YR01H865K, 3, 1491852211835, stimulus, triangle, big, blue, striped, , Y, 3419
+A10O5YR01H865K, 4, 1491852214771, stimulus, triangle, small, red, striped, , N, 2929
+A10O5YR01H865K, 5, 1491852217907, stimulus, square, big, blue, not_striped, , N, 3133
+A10O5YR01H865K, 6, 1491852219499, stimulus, square, big, red, not_striped, , N, 1589
+A10O5YR01H865K, 7, 1491852220819, stimulus, triangle, small, red, not_striped, , Y, 1318
+A10O5YR01H865K, 8, 1491852221971, stimulus, square, small, blue, not_striped, , N, 1149
+A10O5YR01H865K, 9, 1491852222555, stimulus, square, big, blue, striped, , N, 578
+A10O5YR01H865K, 10, 1491852224283, stimulus, triangle, small, blue, striped, , Y, 1722
+A10O5YR01H865K, 11, 1491852224979, stimulus, square, small, red, striped, , N, 690
+A10O5YR01H865K, 12, 1491852226195, stimulus, triangle, small, blue, not_striped, , Y, 1212
+A10O5YR01H865K, 13, 1491852226691, stimulus, square, small, red, not_striped, , N, 494
+A10O5YR01H865K, 14, 1491852227267, stimulus, triangle, big, red, striped, , Y, 570
+A10O5YR01H865K, 15, 1491852227939, stimulus, square, big, red, striped, , Y, 667
+A10O5YR01H865K, 16, 1491852228931, stimulus, triangle, big, red, not_striped, , Y, 990
+A10O5YR01H865K, 17, 1491852229500, stimulus, square, small, blue, striped, , N, 563
+A10O5YR01H865K, 18, 1491852245179, Response, being a blicket is being a triangle
+A3GK90X2QOFR53, 0, 1491852832960, blicket, triangle, small, blue, striped, 
+A1ALBJU1XOKYFH, 0, 1491853049615, blicket, triangle, big, red, striped, 
+A1ALBJU1XOKYFH, 3, 1491853070441, stimulus, triangle, small, blue, not_striped, , N, 2278
+A1ALBJU1XOKYFH, 4, 1491853072033, stimulus, square, small, blue, striped, , N, 1590
+A1ALBJU1XOKYFH, 5, 1491853072746, stimulus, square, big, blue, not_striped, , N, 711
+A1ALBJU1XOKYFH, 6, 1491853074481, stimulus, triangle, big, blue, striped, , Y, 1734
+A1ALBJU1XOKYFH, 7, 1491853075481, stimulus, square, big, red, striped, , N, 999
+A1ALBJU1XOKYFH, 8, 1491853076089, stimulus, square, small, blue, not_striped, , N, 607
+A1ALBJU1XOKYFH, 9, 1491853077201, stimulus, triangle, small, red, not_striped, , N, 1111
+A1ALBJU1XOKYFH, 10, 1491853078529, stimulus, square, big, red, not_striped, , N, 1327
+A1ALBJU1XOKYFH, 11, 1491853080073, stimulus, square, small, red, striped, , N, 1543
+A1ALBJU1XOKYFH, 12, 1491853080746, stimulus, triangle, big, red, not_striped, , N, 672
+A1ALBJU1XOKYFH, 13, 1491853081289, stimulus, square, small, red, not_striped, , N, 543
+A1ALBJU1XOKYFH, 14, 1491853081802, stimulus, triangle, small, red, striped, , Y, 511
+A1ALBJU1XOKYFH, 15, 1491853082385, stimulus, triangle, small, blue, striped, , Y, 582
+A1ALBJU1XOKYFH, 16, 1491853082922, stimulus, triangle, big, blue, not_striped, , N, 536
+A1ALBJU1XOKYFH, 17, 1491853083497, stimulus, triangle, big, red, striped, , Y, 574
+A1ALBJU1XOKYFH, 18, 1491853100039, Response, be a triangle and have stripes
+ACSS93E03ZUGX, 0, 1491853420146, blicket, triangle, big, red, not_striped, 
+ACSS93E03ZUGX, 3, 1491853432929, stimulus, square, small, blue, not_striped, , N, 1676
+ACSS93E03ZUGX, 4, 1491853433617, stimulus, square, big, blue, striped, , N, 683
+ACSS93E03ZUGX, 5, 1491853434721, stimulus, triangle, big, blue, not_striped, , Y, 1103
+ACSS93E03ZUGX, 6, 1491853435617, stimulus, triangle, big, red, not_striped, , Y, 895
+ACSS93E03ZUGX, 7, 1491853436433, stimulus, triangle, small, blue, not_striped, , Y, 815
+ACSS93E03ZUGX, 8, 1491853437153, stimulus, square, small, red, not_striped, , N, 719
+ACSS93E03ZUGX, 9, 1491853438049, stimulus, square, big, blue, not_striped, , N, 895
+ACSS93E03ZUGX, 10, 1491853438785, stimulus, triangle, small, red, striped, , Y, 733
+ACSS93E03ZUGX, 11, 1491853439409, stimulus, triangle, big, blue, striped, , Y, 621
+ACSS93E03ZUGX, 12, 1491853440082, stimulus, square, big, red, striped, , N, 670
+ACSS93E03ZUGX, 13, 1491853440673, stimulus, square, big, red, not_striped, , N, 590
+ACSS93E03ZUGX, 14, 1491853441410, stimulus, triangle, small, red, not_striped, , Y, 736
+ACSS93E03ZUGX, 15, 1491853441969, stimulus, triangle, small, blue, striped, , Y, 557
+ACSS93E03ZUGX, 16, 1491853442657, stimulus, square, small, red, striped, , N, 686
+ACSS93E03ZUGX, 17, 1491853443234, stimulus, square, small, blue, striped, , N, 575
+ACSS93E03ZUGX, 18, 1491853459812, Response, The shape regardless of color indicates if an object is a blicket or not.
+A1VNYP58BTF4HX, 0, 1491853837706, blicket, triangle, small, red, striped, 
+A1VNYP58BTF4HX, 3, 1491853842601, stimulus, triangle, big, red, not_striped, , Y, 1655
+A1VNYP58BTF4HX, 4, 1491853842944, stimulus, square, big, red, not_striped, , Y, 339
+A1VNYP58BTF4HX, 5, 1491853843304, stimulus, square, small, blue, striped, , Y, 351
+A1VNYP58BTF4HX, 6, 1491853843673, stimulus, square, small, red, not_striped, , N, 365
+A1VNYP58BTF4HX, 7, 1491853843897, stimulus, triangle, big, blue, not_striped, , Y, 222
+A1VNYP58BTF4HX, 8, 1491853844030, stimulus, triangle, small, blue, not_striped, , N, 130
+A1VNYP58BTF4HX, 9, 1491853844159, stimulus, triangle, small, red, not_striped, , Y, 126
+A1VNYP58BTF4HX, 10, 1491853844252, stimulus, square, small, red, striped, , N, 86
+A1VNYP58BTF4HX, 11, 1491853844485, stimulus, triangle, small, red, striped, , Y, 228
+A1VNYP58BTF4HX, 12, 1491853844510, stimulus, square, big, blue, striped, , N, 21
+A1VNYP58BTF4HX, 13, 1491853844696, stimulus, square, small, blue, not_striped, , Y, 178
+A1VNYP58BTF4HX, 14, 1491853844784, stimulus, triangle, small, blue, striped, , N, 84
+A1VNYP58BTF4HX, 15, 1491853844913, stimulus, square, big, blue, not_striped, , Y, 126
+A1VNYP58BTF4HX, 16, 1491853844979, stimulus, triangle, big, blue, striped, , N, 62
+A1VNYP58BTF4HX, 17, 1491853845340, stimulus, triangle, big, red, striped, , Y, 355
+A1VNYP58BTF4HX, 18, 1491853852075, Response, red or blue
+A4J4GGMKJ68L0, 0, 1491853833420, blicket, triangle, small, blue, not_striped, 
+A4J4GGMKJ68L0, 3, 1491853855391, stimulus, square, small, red, striped, , N, 1525
+A4J4GGMKJ68L0, 4, 1491853856812, stimulus, triangle, big, blue, not_striped, , Y, 1418
+A4J4GGMKJ68L0, 5, 1491853858300, stimulus, square, small, blue, not_striped, , N, 1486
+A4J4GGMKJ68L0, 6, 1491853859030, stimulus, square, big, blue, not_striped, , N, 728
+A4J4GGMKJ68L0, 7, 1491853859219, stimulus, square, big, red, not_striped, , N, 187
+A4J4GGMKJ68L0, 8, 1491853859821, stimulus, square, small, red, not_striped, , N, 601
+A4J4GGMKJ68L0, 9, 1491853860380, stimulus, square, big, red, striped, , N, 553
+A4J4GGMKJ68L0, 10, 1491853862974, stimulus, triangle, small, blue, striped, , Y, 2588
+A4J4GGMKJ68L0, 11, 1491853864109, stimulus, triangle, small, blue, not_striped, , Y, 1132
+A4J4GGMKJ68L0, 12, 1491853865219, stimulus, triangle, big, red, striped, , N, 1105
+A4J4GGMKJ68L0, 13, 1491853865625, stimulus, triangle, big, red, not_striped, , N, 403
+A4J4GGMKJ68L0, 14, 1491853866092, stimulus, square, big, blue, striped, , N, 462
+A4J4GGMKJ68L0, 15, 1491853866807, stimulus, triangle, small, red, not_striped, , N, 713
+A4J4GGMKJ68L0, 16, 1491853867402, stimulus, triangle, big, blue, striped, , N, 590
+A4J4GGMKJ68L0, 17, 1491853867822, stimulus, triangle, small, red, striped, , N, 415
+A4J4GGMKJ68L0, 18, 1491853877969, Response, Blicket has to be a blue triangle. 
+A1CUB65DPTJV2Q, 0, 1491854390208, blicket, triangle, small, red, not_striped, 
+A1CUB65DPTJV2Q, 3, 1491854460835, stimulus, square, big, red, not_striped, , N, 2365
+A1CUB65DPTJV2Q, 4, 1491854462695, stimulus, square, small, red, striped, , N, 1852
+A1CUB65DPTJV2Q, 5, 1491854463383, stimulus, square, small, red, not_striped, , N, 686
+A1CUB65DPTJV2Q, 6, 1491854464203, stimulus, square, small, blue, striped, , N, 815
+A1CUB65DPTJV2Q, 7, 1491854465721, stimulus, triangle, big, red, not_striped, , Y, 1514
+A1CUB65DPTJV2Q, 8, 1491854467017, stimulus, triangle, big, red, striped, , Y, 1293
+A1CUB65DPTJV2Q, 9, 1491854468236, stimulus, triangle, small, blue, not_striped, , Y, 1218
+A1CUB65DPTJV2Q, 10, 1491854469471, stimulus, square, big, red, striped, , N, 1232
+A1CUB65DPTJV2Q, 11, 1491854470359, stimulus, square, big, blue, not_striped, , N, 887
+A1CUB65DPTJV2Q, 12, 1491854471210, stimulus, triangle, small, blue, striped, , Y, 848
+A1CUB65DPTJV2Q, 13, 1491854472271, stimulus, triangle, small, red, not_striped, , Y, 1059
+A1CUB65DPTJV2Q, 14, 1491854473069, stimulus, triangle, big, blue, not_striped, , Y, 796
+A1CUB65DPTJV2Q, 15, 1491854473717, stimulus, triangle, big, blue, striped, , Y, 644
+A1CUB65DPTJV2Q, 16, 1491854474626, stimulus, square, small, blue, not_striped, , N, 908
+A1CUB65DPTJV2Q, 17, 1491854475273, stimulus, square, big, blue, striped, , N, 642
+A1CUB65DPTJV2Q, 18, 1491854489664, Response, a triangle is a blicket
+A2DXEPC4QFV4R1, 0, 1491854378969, blicket, triangle, big, red, striped, 
+A2DXEPC4QFV4R1, 3, 1491854401623, stimulus, triangle, small, blue, striped, , N, 2319
+A2DXEPC4QFV4R1, 4, 1491854402649, stimulus, square, big, red, not_striped, , Y, 1025
+A2DXEPC4QFV4R1, 5, 1491854403655, stimulus, square, big, blue, not_striped, , N, 1004
+A2DXEPC4QFV4R1, 6, 1491854404418, stimulus, triangle, small, red, striped, , Y, 759
+A2DXEPC4QFV4R1, 7, 1491854405705, stimulus, square, small, blue, striped, , N, 1283
+A2DXEPC4QFV4R1, 8, 1491854406294, stimulus, triangle, big, red, striped, , Y, 587
+A2DXEPC4QFV4R1, 9, 1491854407609, stimulus, triangle, big, blue, striped, , N, 1313
+A2DXEPC4QFV4R1, 10, 1491854409454, stimulus, square, small, red, striped, , Y, 1843
+A2DXEPC4QFV4R1, 11, 1491854410351, stimulus, triangle, big, red, not_striped, , N, 896
+A2DXEPC4QFV4R1, 12, 1491854411442, stimulus, square, big, red, striped, , Y, 1088
+A2DXEPC4QFV4R1, 13, 1491854411994, stimulus, square, big, blue, striped, , N, 550
+A2DXEPC4QFV4R1, 14, 1491854412723, stimulus, square, small, red, not_striped, , Y, 727
+A2DXEPC4QFV4R1, 15, 1491854413682, stimulus, square, small, blue, not_striped, , N, 957
+A2DXEPC4QFV4R1, 16, 1491854414083, stimulus, triangle, big, blue, not_striped, , N, 400
+A2DXEPC4QFV4R1, 17, 1491854414966, stimulus, triangle, small, red, not_striped, , N, 879
+A2DXEPC4QFV4R1, 18, 1491854428072, Response, I think it has to be red with stripes.
+A3INEKAD86IRQC, 0, 1491854940667, blicket, square, small, blue, not_striped, 
+A3INEKAD86IRQC, 3, 1491854970369, stimulus, triangle, small, blue, striped, , N, 3093
+A3INEKAD86IRQC, 4, 1491854974416, stimulus, triangle, small, red, striped, , N, 4046
+A3INEKAD86IRQC, 5, 1491854977545, stimulus, square, big, red, not_striped, , Y, 3128
+A3INEKAD86IRQC, 6, 1491854980728, stimulus, triangle, big, blue, not_striped, , N, 3183
+A3INEKAD86IRQC, 7, 1491854983624, stimulus, square, big, red, striped, , Y, 2895
+A3INEKAD86IRQC, 8, 1491854984928, stimulus, triangle, small, blue, not_striped, , N, 1303
+A3INEKAD86IRQC, 9, 1491854986080, stimulus, triangle, big, red, not_striped, , N, 1151
+A3INEKAD86IRQC, 10, 1491854987080, stimulus, square, big, blue, striped, , Y, 999
+A3INEKAD86IRQC, 11, 1491854988192, stimulus, square, small, blue, striped, , Y, 1111
+A3INEKAD86IRQC, 12, 1491854989816, stimulus, square, small, red, not_striped, , Y, 1623
+A3INEKAD86IRQC, 13, 1491854990464, stimulus, square, small, blue, not_striped, , Y, 647
+A3INEKAD86IRQC, 14, 1491854992344, stimulus, square, big, blue, not_striped, , Y, 1879
+A3INEKAD86IRQC, 15, 1491854993352, stimulus, triangle, big, red, striped, , N, 1006
+A3INEKAD86IRQC, 16, 1491854994368, stimulus, triangle, big, blue, striped, , N, 1014
+A3INEKAD86IRQC, 17, 1491854995800, stimulus, triangle, small, red, not_striped, , N, 1431
+A3INEKAD86IRQC, 18, 1491855037097, Response, I think a square shape would be a blicket. The larger squares could possibly be "large" blickets.
+A38N2MBXP7IOPS, 0, 1491855390549, blicket, triangle, big, red, striped, 
+A38N2MBXP7IOPS, 3, 1491855406665, stimulus, square, big, red, not_striped, , N, 2194
+A38N2MBXP7IOPS, 4, 1491855408969, stimulus, square, small, red, striped, , Y, 2300
+A38N2MBXP7IOPS, 5, 1491855411074, stimulus, square, big, red, striped, , Y, 2102
+A38N2MBXP7IOPS, 6, 1491855412161, stimulus, square, big, blue, striped, , N, 1082
+A38N2MBXP7IOPS, 7, 1491855413105, stimulus, triangle, small, blue, not_striped, , N, 940
+A38N2MBXP7IOPS, 8, 1491855414192, stimulus, square, small, blue, not_striped, , N, 1084
+A38N2MBXP7IOPS, 9, 1491855415473, stimulus, triangle, small, red, not_striped, , N, 1279
+A38N2MBXP7IOPS, 10, 1491855416417, stimulus, triangle, small, blue, striped, , N, 940
+A38N2MBXP7IOPS, 11, 1491855417521, stimulus, triangle, big, red, striped, , Y, 1101
+A38N2MBXP7IOPS, 12, 1491855418457, stimulus, triangle, small, red, striped, , Y, 933
+A38N2MBXP7IOPS, 13, 1491855419641, stimulus, square, big, blue, not_striped, , N, 1182
+A38N2MBXP7IOPS, 14, 1491855420777, stimulus, triangle, big, blue, striped, , N, 1133
+A38N2MBXP7IOPS, 15, 1491855421506, stimulus, triangle, big, red, not_striped, , N, 725
+A38N2MBXP7IOPS, 16, 1491855422609, stimulus, square, small, blue, striped, , N, 1099
+A38N2MBXP7IOPS, 17, 1491855423609, stimulus, square, small, red, not_striped, , N, 998
+A38N2MBXP7IOPS, 18, 1491855453992, Response, I thought the rules for being a blicket was to be black and red striped.
+A1BSA7FVVJGZ15, 0, 1491855484062, blicket, triangle, big, red, not_striped, 
+A1BSA7FVVJGZ15, 3, 1491855498830, stimulus, triangle, big, red, striped, , Y, 2235
+A1BSA7FVVJGZ15, 4, 1491855499737, stimulus, triangle, big, blue, not_striped, , Y, 894
+A1BSA7FVVJGZ15, 5, 1491855500994, stimulus, square, small, red, striped, , N, 1254
+A1BSA7FVVJGZ15, 6, 1491855501841, stimulus, triangle, small, blue, not_striped, , Y, 845
+A1BSA7FVVJGZ15, 7, 1491855502600, stimulus, square, big, blue, not_striped, , N, 757
+A1BSA7FVVJGZ15, 8, 1491855503289, stimulus, triangle, big, red, not_striped, , Y, 685
+A1BSA7FVVJGZ15, 9, 1491855504649, stimulus, square, big, blue, striped, , N, 1357
+A1BSA7FVVJGZ15, 10, 1491855505689, stimulus, triangle, small, red, striped, , Y, 1037
+A1BSA7FVVJGZ15, 11, 1491855507137, stimulus, square, small, red, not_striped, , N, 1446
+A1BSA7FVVJGZ15, 12, 1491855508305, stimulus, square, big, red, not_striped, , N, 1166
+A1BSA7FVVJGZ15, 13, 1491855508860, stimulus, triangle, big, blue, striped, , Y, 552
+A1BSA7FVVJGZ15, 14, 1491855509780, stimulus, square, small, blue, not_striped, , N, 906
+A1BSA7FVVJGZ15, 15, 1491855510416, stimulus, square, small, blue, striped, , N, 629
+A1BSA7FVVJGZ15, 16, 1491855511150, stimulus, triangle, small, red, not_striped, , Y, 732
+A1BSA7FVVJGZ15, 17, 1491855511945, stimulus, square, big, red, striped, , N, 790
+A1BSA7FVVJGZ15, 18, 1491855550303, Response, triangle with its right angle pointed up and to the right.
+AVXEDARJC5HLU, 0, 1491856291186, blicket, square, small, red, striped, 
+AVXEDARJC5HLU, 3, 1491856405671, stimulus, triangle, small, red, striped, , Y, 3797
+AVXEDARJC5HLU, 4, 1491856409378, stimulus, triangle, big, red, not_striped, , N, 3706
+AVXEDARJC5HLU, 5, 1491856411687, stimulus, triangle, big, red, striped, , Y, 2306
+AVXEDARJC5HLU, 6, 1491856413121, stimulus, square, small, red, striped, , Y, 1430
+AVXEDARJC5HLU, 7, 1491856414637, stimulus, triangle, big, blue, striped, , Y, 1512
+AVXEDARJC5HLU, 8, 1491856415745, stimulus, square, big, red, not_striped, , N, 1107
+AVXEDARJC5HLU, 9, 1491856417635, stimulus, triangle, small, red, not_striped, , N, 1886
+AVXEDARJC5HLU, 10, 1491856418199, stimulus, square, big, blue, not_striped, , N, 561
+AVXEDARJC5HLU, 11, 1491856418745, stimulus, triangle, small, blue, not_striped, , N, 544
+AVXEDARJC5HLU, 12, 1491856419296, stimulus, triangle, small, blue, striped, , Y, 546
+AVXEDARJC5HLU, 13, 1491856419761, stimulus, square, small, blue, striped, , Y, 458
+AVXEDARJC5HLU, 14, 1491856420755, stimulus, triangle, big, blue, not_striped, , N, 991
+AVXEDARJC5HLU, 15, 1491856421402, stimulus, square, small, red, not_striped, , N, 644
+AVXEDARJC5HLU, 16, 1491856421990, stimulus, square, big, red, striped, , Y, 586
+AVXEDARJC5HLU, 17, 1491856422833, stimulus, square, small, blue, not_striped, , N, 840
+AVXEDARJC5HLU, 18, 1491856433964, Response, Striped is a blicket
+A3NT5NEO3OMH50, 0, 1491858494570, blicket, triangle, small, blue, not_striped, 
+A3NT5NEO3OMH50, 3, 1491858681623, stimulus, square, big, blue, striped, , N, 2914
+A3NT5NEO3OMH50, 4, 1491858683247, stimulus, triangle, big, blue, striped, , Y, 1622
+A3NT5NEO3OMH50, 5, 1491858684582, stimulus, triangle, small, blue, not_striped, , Y, 1334
+A3NT5NEO3OMH50, 6, 1491858685524, stimulus, square, big, blue, not_striped, , N, 941
+A3NT5NEO3OMH50, 7, 1491858686452, stimulus, square, small, blue, striped, , N, 925
+A3NT5NEO3OMH50, 8, 1491858687388, stimulus, triangle, small, red, not_striped, , Y, 935
+A3NT5NEO3OMH50, 9, 1491858688704, stimulus, triangle, big, red, striped, , Y, 1312
+A3NT5NEO3OMH50, 10, 1491858689743, stimulus, triangle, big, blue, not_striped, , Y, 1037
+A3NT5NEO3OMH50, 11, 1491858690725, stimulus, triangle, small, blue, striped, , Y, 977
+A3NT5NEO3OMH50, 12, 1491858691613, stimulus, square, small, red, not_striped, , N, 887
+A3NT5NEO3OMH50, 13, 1491858692148, stimulus, square, big, red, striped, , N, 531
+A3NT5NEO3OMH50, 14, 1491858693376, stimulus, triangle, big, red, not_striped, , Y, 1227
+A3NT5NEO3OMH50, 15, 1491858693995, stimulus, triangle, small, red, striped, , Y, 616
+A3NT5NEO3OMH50, 16, 1491858694943, stimulus, square, small, red, striped, , N, 944
+A3NT5NEO3OMH50, 17, 1491858696001, stimulus, square, big, red, not_striped, , N, 1057
+A3NT5NEO3OMH50, 18, 1491858705486, Response, A three sided shape
