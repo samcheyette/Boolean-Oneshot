@@ -5,11 +5,27 @@ library(grid)
 library(dplyr)
 library(stringr)
 library(stringdist)
+library(car)
 
-data = read.csv("model_output6.csv")
+data = read.csv("model_output2.csv")
 m = melt(data, id=c("subj", "blicket", "resp", "hyp",
 		 "hyp_pred", "prob", "hamming", "complexity", "verbal", "verbal_pred", 
-		 	"alpha", "time"))
+		 	"alpha", "time","RT_mean", "RT_median" ))
+
+m$unique <- as.numeric(1:nrow(m))
+
+
+#m <- (m %>% group_by(subj, alpha) %>% filter(unique == min(unique)))
+
+thresh <- 0.01
+m_m <- mean(m$RT_mean)
+# <- m %>%  group_by(subj) %>% mutate(pct=RT_mean/m_m) %>% 
+     #filter(pct > thresh)
+
+
+
+head(m)
+length(m$subj)
 
 
 m$time <- factor(m$time)
@@ -29,6 +45,14 @@ m <- m %>% group_by(subj, hyp) %>% mutate(p2=prob/z)
 
 
 z
+
+
+p <- ggplot(data=m, aes(group=alpha)) +
+  geom_bar(data=m, stat='count',  
+    aes(x=cplx_resp),color="black", fill="black", size=2.0)+
+
+    facet_wrap(~alpha)
+p
 
 p <- ggplot(data=m) +
  # geom_bar(data=m, stat='identity', aes(x=cplx_verb, y=p2), 
@@ -66,9 +90,7 @@ p <- ggplot(data=m, aes(group=alpha)) +
 
 
     #scale_colour_gradient2()
- # facet_wrap(~log_alpha)
-
-
+ # facet_wrap(~log_alpha
 
 
 p + xlab("Hypothesis Complexity") + ylab("Probability Mass over Hypotheses") + 
@@ -87,3 +109,8 @@ p + xlab("Hypothesis Complexity") + ylab("Probability Mass over Hypotheses") +
      legend.key.size = unit(4, 'lines'))
 
 ggsave("model_cplx_alpha.pdf", width=15, height=9)
+
+
+
+
+

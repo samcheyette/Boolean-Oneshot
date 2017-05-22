@@ -14,7 +14,6 @@ def clean(file,  nfeat):
 
 		lets = string.ascii_lowercase + string.ascii_uppercase
 		i = 0
-
 		for z in r[4:4+nfeat]:
 			done = False
 			j = 0
@@ -40,14 +39,18 @@ def clean(file,  nfeat):
 			elif "Y" in r[4+yn_index]:
 				yn = True
 
+			RT= r[len(r)-1]
+			RT = RT[:RT.find("\n")].replace(" ","")
 
 			if r[3].strip(" ") not in p_dct[part]:
 				p_dct[part][r[3].strip(" ")] = []
+				p_dct[part]["RT"] = []
 
 
 			if yn:
 				p_dct[part][r[3].strip(" ")].append(copy.copy([k.strip(" ") for k in r[4:4+i]]))
-
+			if RT != "":
+				p_dct[part]["RT"].append(int(RT))
 
 		l = f.readline()
 
@@ -124,6 +127,8 @@ def bin_form(clean_data, nfeat):
 			new_dct['stimulus'] = copy.deepcopy(bin_stim)
 			new_dct['blicket'] = copy.deepcopy(bin_bl[0])
 			new_dct['ID'] = k
+			new_dct['RT_mean'] = sum(clean_data[k]['RT'])/float(len(clean_data[k]['RT']))
+			new_dct['RT_median'] = sorted(clean_data[k]['RT'])[len(clean_data[k]['RT'])/2]
 
 			clean_data_new.append(copy.deepcopy(new_dct))
 
@@ -136,7 +141,9 @@ if __name__ == "__main__":
 	c = clean("data.csv", nfeat)
 	bf = bin_form(c, nfeat)
 
-	print c
+	#print bf
+	for b in bf:
+		print b["RT_median"], b["RT_mean"]
 
 
 	#print bf

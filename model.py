@@ -63,8 +63,15 @@ grammar.add_rule('BOOL', 'not__', ['BOOL'], 1.0)
 class MyHypothesis(LOTHypothesis):
     def __init__(self, **kwargs):
 
+
         LOTHypothesis.__init__(self, grammar=grammar,  maxnodes=400,
                                    display="lambda C: %s", **kwargs)
+
+        if 'sp' in kwargs:
+
+            self.use_size_principle = kwargs['sp']
+        else:
+            self.use_size_principle = False
 
 
     def __call__(self, stimuli_list):
@@ -87,6 +94,18 @@ class MyHypothesis(LOTHypothesis):
     			sim += log(datum.alpha)
     		else:
     			sim += log(1.0 - datum.alpha)
+
+        if self.use_size_principle:
+            #assumes positive examples only!
+            assert(0 not in datum.output)
+            stim = get_all_stimuli(maxLen)
+            out_stim = self.__call__(stim)
+            card_h = sum(out_stim)
+
+            if card_h != 0:
+                n_ex = len(datum.output)
+                sim -= n_ex * log(card_h)
+
 
         return sim
 

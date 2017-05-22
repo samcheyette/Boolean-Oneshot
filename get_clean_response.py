@@ -70,20 +70,12 @@ if __name__ == "__main__":
 	to_func = resps_to_func(resps, vals)
 	Cont = get_all_stimuli(nfeat)
 
-
-
-	for idN in to_func:
-		f = to_func[idN]
-		print f
-		for C in Cont:
-			print eval(f)
+	print resps
 
 
 
-	#bf = bin_form(c, nfeat)
-
-
-
-
-	#print c
-
+	#for idN in to_func:
+		#f = to_func[idN]
+		#print f
+		#for C in Cont:
+		#	print eval(f)

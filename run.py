@@ -7,7 +7,8 @@ import time
 from LOTlib.TopN import TopN
 import random
 from get_clean_response import *
-import os.path
+
+
 
 
 
@@ -25,7 +26,7 @@ def get_likely_hyps_enumerate(data, out_rule):
 	st=set()
 
 	ind=0
-	while (ind < samp and (min_hd > 0 or ind < 20000)):
+	while (ind < samp):
 
 		if ind % 5000 == 0 and ind != 0:
 			t_s = time.time() - o_time
@@ -42,7 +43,7 @@ def get_likely_hyps_enumerate(data, out_rule):
 
 		fn = enum.next() 
 		#print fn
-		h0 = MyHypothesis()
+		h0 = MyHypothesis(**{"sp":sp})
 		fdata = copy.deepcopy([FunctionData(input=data, output=out_rule, 
 						alpha=alpha) ])
 		h0.set_value(fn)
@@ -87,9 +88,12 @@ def run_model(data, rule):
 	all_best = []
 
 	for hs in best_hyps[:5]:
+		gen = hs[0](get_all_stimuli(nfeat))
 		print hs, hamming_distance(hs[0](data), rule)
 		print hs[0](data)
 		print rule
+		print gen
+		print sum(gen)
 		print
 
 	return best_hyps
@@ -98,44 +102,120 @@ def run_model(data, rule):
 	#value_hyps = get_value(best_hyps, rewardP, rewardN)
 
 
-def output(file, model, data, app=False):
 
-	if (not app) or (not os.path.isfile(file)):
-		s = ("subj, blicket, resp, hyp, hyp_pred, prob, hamming,")
-		s += "complexity, verbal, verbal_pred, alpha, time\n"
-		app_use = "w+"
-	else:
-		s = ""
-		app_use = "a+"
 
-	subs = 0
-	tm = str(time.time())
-	for m in model:
+def main_bda(out_file):
+	#for alpha in [0.9999999, 0.9999, 0.99, 0.95, 0.9, 0.75, 0.6]:
+	#alpha= 0.95
 
-		blicket = "".join(["ab"[int(i)] for i in m[0]])
-		resp = "".join(["ab"[i] for i in m[1]])
-		verbal_resp = m[3]
-		verbal_resp_pred = "".join(["ab"[i] for i in m[4]])
-		alph = str(m[5])
-		for pred in m[2]:
-			hyp = str(pred[0]).replace(",", "")
-			hyp_pred = str("".join(["ab"[i] for i in pred[0](data)]))
-			hd = str(hamming_distance(pred[0](data), m[1]))
-			prob = str(round(pred[1],4))
-			cplx = str(pred[2])
+	c = clean("data.csv", nfeat)
+	bf = bin_form(c, nfeat)
+	data = get_all_stimuli(maxLen)
+	grs = []
 
-			print subs, blicket, resp, hyp, hyp_pred, prob, hd, cplx
 
-			s += "%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s\n" % (subs, blicket, resp, hyp,
-															 hyp_pred, prob, hd, cplx,verbal_resp,
-															 	 verbal_resp_pred, alph, tm)
+	vals = assign_vals(c, nfeat)
+	resps = get_resps("data_answers.csv", nfeat)
+	to_func = resps_to_func(resps, vals)
+	Cont = get_all_stimuli(nfeat)
 
-		subs += 1
-		print
 
-	f = open(file, app_use)
-	f.write(s)
-	f.close()
+	for s in bf:
+
+		if s['ID'] in to_func:
+			tmp = []
+			stim = s['stimulus']
+			for d in data:
+				if d in stim:
+					tmp.append(1)
+				else:
+					tmp.append(0)
+
+
+			idN = s['ID']
+			f = to_func[idN]
+			verbal_ans = []
+			for C in Cont:
+				verbal_ans.append(eval(f))
+
+			grs.append((copy.deepcopy(s['blicket']), copy.deepcopy(tmp), 
+						copy.deepcopy(verbal_ans), s['ID'],
+						 s["RT_mean"], s["RT_median"]))
+
+
+	random.shuffle(grs)
+
+
+	print resps
+	l = []
+	for g in grs:
+		print resps[g[3]]
+		l.append((resps[g[3]].replace("not_striped", "solid"), 
+					resps[g[3]].count("and") + resps[g[3]].count("or") + 1))
+		print g[2]
+		print g[1]
+		print hamming_distance(g[2], g[1])
+		print 
+
+
+
+	true_resps = []
+	model_res = []
+	for gr in grs:
+		best = run_model(data, gr[1])
+		model_res.append((copy.deepcopy(gr[0]), 
+							copy.deepcopy(gr[1]), 
+							copy.deepcopy(best), 
+							resps[gr[3]],
+							gr[2], alpha, gr[4], gr[5]))
+		#print
+
+	#print data
+	#print bf
+	#run_model(data, gr)
+	out = output(out_file, model_res, data, app=True)
+
+
+def main_learning(out_file):
+	#for alpha in [0.9999999, 0.9999, 0.99, 0.95, 0.9, 0.75, 0.6]:
+	#alpha= 0.95
+
+	c = clean("data.csv", nfeat)
+	bf = bin_form(c, nfeat)
+	data = get_all_stimuli(maxLen)
+	grs = []
+
+
+	vals = assign_vals(c, nfeat)
+	resps = get_resps("data_answers.csv", nfeat)
+	to_func = resps_to_func(resps, vals)
+	Cont = get_all_stimuli(nfeat)
+
+
+	print resps
+	print bf
+
+	grs=[]
+	for b in bf:
+
+		if b["ID"] in resps:
+			#r = run_model([b["blicket"]], [1])
+			r = run_model([b["blicket"]], [1])
+			resp = resps[b["ID"]]
+			grs.append((b["blicket"], copy.deepcopy(r),
+				 alpha, b["ID"], resp))
+
+		else:
+			print 'ID NOT FOUND IN SURVEY'
+
+
+	#print data
+	#print bf
+	#run_model(data, gr)
+	out = output_learning(out_file, grs, app=True)
+
+
+
 
 
 
@@ -144,80 +224,14 @@ if __name__ == "__main__":
 
 		#globals
 
+	out_file = "model_output2.csv"
 
-	#for alpha in [0.9999999, 0.9999, 0.99, 0.95, 0.9, 0.75, 0.6]:
-	for alpha in [0.999]:
-	#alpha= 0.95
-		samp = 40000
-		top = 10
-		nfeat = 4
-		out_file = "model_output6.csv"
-		c = clean("data.csv", nfeat)
-		bf = bin_form(c, nfeat)
-		#print data
-		data = get_all_stimuli(maxLen)
-		#gr = get_rule(grammar, which, data)
-		grs = []
-
-
-		vals = assign_vals(c, nfeat)
-		resps = get_resps("data_answers.csv", nfeat)
-		to_func = resps_to_func(resps, vals)
-		Cont = get_all_stimuli(nfeat)
-
-		for s in bf:
-
-			if s['ID'] in to_func:
-				tmp = []
-				stim = s['stimulus']
-				for d in data:
-					if d in stim:
-						tmp.append(1)
-					else:
-						tmp.append(0)
-
-
-				idN = s['ID']
-				f = to_func[idN]
-				verbal_ans = []
-				for C in Cont:
-					verbal_ans.append(eval(f))
-
-				grs.append((copy.deepcopy(s['blicket']), copy.deepcopy(tmp), 
-							copy.deepcopy(verbal_ans), s['ID']))
-
-
-		random.shuffle(grs)
-
-
-		print resps
-		l = []
-		for g in grs:
-			print resps[g[3]]
-			l.append((resps[g[3]].replace("not_striped", "solid"), 
-						resps[g[3]].count("and") + resps[g[3]].count("or") + 1))
-			print g[2]
-			print g[1]
-			print hamming_distance(g[2], g[1])
-			print 
-
-
-
-		true_resps = []
-		model_res = []
-		for gr in grs:
-			best = run_model(data, gr[1])
-			model_res.append((copy.deepcopy(gr[0]), 
-								copy.deepcopy(gr[1]), 
-								copy.deepcopy(best), 
-								resps[gr[3]],
-								gr[2], alpha))
-			#print
-
-		#print data
-		#print bf
-		#run_model(data, gr)
-		out = output(out_file, model_res, data, app=True)
-
-
-
+	alphas = [0.999999, 0.9]
+	#alphas = [0.9999999999]
+	samp = 50000
+	top = 10
+	sp = False
+	nfeat = 4
+	for alpha in alphas:
+		main_bda(out_file)
+		#main_learning(out_file)

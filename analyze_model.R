@@ -6,24 +6,88 @@ library(dplyr)
 library(stringr)
 library(stringdist)
 
-data = read.csv("model_output3.csv")
+data = read.csv("model_output2.csv")
 m = melt(data, id=c("subj", "blicket", "resp", "hyp",
-		 "hyp_pred", "prob", "hamming", "complexity", "verbal", "verbal_pred"))
+		 "hyp_pred", "prob", "hamming", "complexity",
+      "verbal", "verbal_pred", "RT_mean", "RT_median", "alpha"))
 
 #head(m)
 
-#m <- mutate(m, verb_char = as.character(verbal))
+max_a <- max(m$alpha)
+
+m <- m  %>% filter(alpha==max_a)
+m <- m %>% mutate(resp=gsub(" ", "", as.character(resp)))
+
+abToBin <- function(x) {
+  x <- gsub(" ", "", as.character(x))
+  s <- ""
+  for (i in 1:nchar(x)) {
+    p <- ""
+    sub_x <- substr(x, i, i)
+    if (grepl("a", sub_x)) {
+      p <- "0"
+    } else {
+      p <- "1"
+    }
+    s <- paste(s, p, sep="")
+  }
+ return(s)
+}
+
+
+binToDec <- function(x) 
+    sum(2^(which(rev(unlist(strsplit(as.character(x), "")) == 1))-1))
 
 m <-  m%>% group_by(subj, hyp) %>% mutate(cplx_verb= 1 + str_count(as.character(verbal),"and") +
-				str_count(as.character(verbal),"or") )
+        str_count(as.character(verbal),"or") )
 
 
 m <-  m%>% group_by(subj, hyp) %>% mutate(cplx_resp= str_count(as.character(hyp),"C\\["))
 
-m2 <- cbind(m$cplx_verb, as.character(m$verbal))
+#m2 <- cbind(m$cplx_verb, as.character(m$verbal))
+
+m$unique <- as.numeric(1:nrow(m))
+
+
+m.MAP <- (m %>% group_by(subj) %>% filter(unique == min(unique)))
+
+m.MAP <- m.MAP %>%  mutate(bin_bl=abToBin(blicket)) %>%
+          mutate(bl_ind=binToDec(bin_bl)+1) %>% 
+          mutate(resp_ind=substr(resp, bl_ind, bl_ind)) #%>%
+          #filter(grepl("b", resp_ind))
+
+m.MAP$subj
+m.MAP$blicket
+m.MAP$resp
+
+m.MAP$bin_bl
+m.MAP$bl_ind
+m.MAP$resp_ind
+
+#thresh <- 1.5
+#m_m<- mean(m.MAP$RT_mean)
+
+#m.MAP <- (m.MAP %>%  group_by(subj) %>% mutate(pct=RT_mean/m_m) %>% 
+  #   filter(pct > thresh))
+
+
+#m <- mutate(m, verb_char = as.character(verbal))
 
 
 
+
+
+p <- ggplot(data=m.MAP) +
+  geom_bar(data=m.MAP, stat='count',  
+    aes(x=cplx_verb), size=2.0)
+
+p
+
+
+p <- ggplot(data=m.MAP, aes(x=cplx_verb, y=RT_median)) +
+  geom_point()
+
+p
 #p <- ggplot(data=m) +
   #geom_histogram(data=m,bins=3, aes(x=cplx_verb), color="black", fill="black")
 p <- ggplot(data=m) +
